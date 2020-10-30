@@ -1,4 +1,4 @@
-# 项目Fork(https://github.com/dollarkillerx/govcl)   主要是GoModel 化 和改变项目结构
+# 项目Fork(github.com/ying32/govcl)   主要是GoModel 化 和改变项目结构
 Choose `README.md` language:
 
 [中文](README.zh-CN.md)   | [English](README.en-US.md)    
