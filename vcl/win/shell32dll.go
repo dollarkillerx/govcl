@@ -15,7 +15,7 @@ import (
 
 	"unsafe"
 
-	. "github.com/ying32/govcl/vcl/types"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 var (

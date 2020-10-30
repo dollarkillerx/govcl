@@ -8,14 +8,14 @@
 
 package rtl
 
-import "github.com/ying32/govcl/vcl/api"
+import "github.com/dollarkillerx/govcl/vcl/api"
 
 // Shortcut
 
 // 创建一个url的快捷方式
 //
 // Create a shortcut to a URL
-//   rtl.CreateURLShortCut("C:\\aaa\\bbb\\", "govcl", "https://github.com/ying32/govcl")
+//   rtl.CreateURLShortCut("C:\\aaa\\bbb\\", "govcl", "https://github.com/dollarkillerx/govcl")
 func CreateURLShortCut(aDestPath, aShortCutName, aURL string) {
 	api.DCreateURLShortCut(aDestPath, aShortCutName, aURL)
 }

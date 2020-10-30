@@ -24,7 +24,7 @@
 ----
 
 ### 预编译GUI库二进制下载（[源代码](https://github.com/ying32/liblcl)）       
-[![liblcl](https://img.shields.io/github/downloads/ying32/govcl/latest/liblcl-2.0.7.zip.svg)](https://github.com/ying32/govcl/releases/download/v2.0.7/liblcl-2.0.7.zip)  
+[![liblcl](https://img.shields.io/github/downloads/ying32/govcl/latest/liblcl-2.0.7.zip.svg)](https://github.com/dollarkillerx/govcl/releases/download/v2.0.7/liblcl-2.0.7.zip)  
 
 
 ### res2go工具下载（[文档、源代码](Tools/res2go)）  
@@ -38,9 +38,9 @@
 
 #### 步骤一：获取govcl代码  
 
-> go get -u github.com/ying32/govcl  
+> go get -u github.com/dollarkillerx/govcl  
 
-*注：也可用go module方式拉取，在go.mod中配置如：`github.com/ying32/govcl v2.0.7+incompatible`，其中的版本号替换为最新版本。*  
+*注：也可用go module方式拉取，在go.mod中配置如：`github.com/dollarkillerx/govcl v2.0.7+incompatible`，其中的版本号替换为最新版本。*  
 
 #### 步骤二：编写代码    
 
@@ -52,8 +52,8 @@ package main
 
 import (
    // 如果你使用自定义的syso文件则不要引用此包
-   _ "github.com/ying32/govcl/pkgs/winappres"
-   "github.com/ying32/govcl/vcl"
+   _ "github.com/dollarkillerx/govcl/pkgs/winappres"
+   "github.com/dollarkillerx/govcl/vcl"
 )
 
 type TMainForm struct {
@@ -110,8 +110,8 @@ package main
 
 import (
    // 如果你使用自定义的syso文件则不要引用此包
-   _ "github.com/ying32/govcl/pkgs/winappres"
-   "github.com/ying32/govcl/vcl"
+   _ "github.com/dollarkillerx/govcl/pkgs/winappres"
+   "github.com/dollarkillerx/govcl/vcl"
 )
 
 type TMainForm struct {

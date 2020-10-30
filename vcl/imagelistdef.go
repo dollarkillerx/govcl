@@ -9,8 +9,8 @@
 package vcl
 
 import (
-	. "github.com/ying32/govcl/vcl/api"
-	. "github.com/ying32/govcl/vcl/types"
+	. "github.com/dollarkillerx/govcl/vcl/api"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 func (i *TImageList) Draw(canvas IObject, x, y, index int32, enabled bool) {

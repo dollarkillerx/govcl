@@ -9,7 +9,7 @@
 package vcl
 
 import (
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 // NewRegistryAllAccess 所有访问权限

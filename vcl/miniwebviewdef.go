@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ying32/govcl/vcl/rtl"
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/rtl"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 // Windows下设置TMiiWebview的IE内核版本，需管理员权限才可以写注册表

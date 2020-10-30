@@ -8,7 +8,7 @@
 
 package vcl
 
-import . "github.com/ying32/govcl/vcl/types"
+import . "github.com/dollarkillerx/govcl/vcl/types"
 
 type IControl interface {
 	IComponent

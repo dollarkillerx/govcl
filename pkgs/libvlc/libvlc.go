@@ -1,6 +1,6 @@
 /*
 
-  这个文件是给github.com/ying32/govcl/samples/simaplelibvlc 测试使用
+  这个文件是给github.com/dollarkillerx/govcl/samples/simaplelibvlc 测试使用
   翻译自fpc的libvlc.pp文件
   By:ying32
 */

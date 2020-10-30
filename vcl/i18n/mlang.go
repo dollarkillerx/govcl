@@ -17,9 +17,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ying32/govcl/vcl"
-	"github.com/ying32/govcl/vcl/rtl"
-	"github.com/ying32/govcl/vcl/types"
+	"github.com/dollarkillerx/govcl/vcl"
+	"github.com/dollarkillerx/govcl/vcl/rtl"
+	"github.com/dollarkillerx/govcl/vcl/types"
 )
 
 // TLangItem 本地已经存在语言列表的项目定义

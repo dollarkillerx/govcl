@@ -14,8 +14,8 @@ import (
 
 	"fmt"
 
-	"github.com/ying32/govcl/vcl/api"
-	. "github.com/ying32/govcl/vcl/types"
+	"github.com/dollarkillerx/govcl/vcl/api"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 // 显示一个消息框。

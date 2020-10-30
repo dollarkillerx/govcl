@@ -9,7 +9,7 @@
 package vcl
 
 import (
-	. "github.com/ying32/govcl/vcl/api"
+	. "github.com/dollarkillerx/govcl/vcl/api"
 )
 
 // 新建Delphi/Lazarus内存流来自Go字节数组。

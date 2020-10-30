@@ -11,8 +11,8 @@ package vcl
 import (
 	"unsafe"
 
-	. "github.com/ying32/govcl/vcl/api"
-	. "github.com/ying32/govcl/vcl/types"
+	. "github.com/dollarkillerx/govcl/vcl/api"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 func messageCallbackProc(f uintptr, msg uintptr) uintptr {

@@ -8,7 +8,7 @@
 
 package rtl
 
-import "github.com/ying32/govcl/vcl/api"
+import "github.com/dollarkillerx/govcl/vcl/api"
 
 // 初始化
 func init() {

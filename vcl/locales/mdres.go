@@ -8,7 +8,7 @@
 
 package locales
 
-import "github.com/ying32/govcl/vcl/api"
+import "github.com/dollarkillerx/govcl/vcl/api"
 
 // 修改资源
 func ModifyResources(data map[string]string) {

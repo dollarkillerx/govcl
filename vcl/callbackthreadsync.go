@@ -9,7 +9,7 @@
 package vcl
 
 import (
-	"github.com/ying32/govcl/vcl/api"
+	"github.com/dollarkillerx/govcl/vcl/api"
 )
 
 // 线程同步的，独立出来

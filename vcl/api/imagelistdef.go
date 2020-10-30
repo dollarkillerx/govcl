@@ -9,7 +9,7 @@
 package api
 
 import (
-	. "github.com/ying32/govcl/vcl/types"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 func ImageList_Draw1(obj uintptr, canvas uintptr, x, y, index int32, enabled bool) {

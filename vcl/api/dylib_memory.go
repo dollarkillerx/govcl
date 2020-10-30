@@ -19,8 +19,8 @@
 package api
 
 import (
-	"github.com/ying32/govcl/vcl/api/memorydll"
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/api/memorydll"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 func loadUILib() *memorydll.LazyDLL {
@@ -35,8 +35,8 @@ func loadUILib() *memorydll.LazyDLL {
 		return nil
 	}
 	if getLibType(lib) != 1 {
-		// 当前已经不再支持VCL库了。如果有需要，请使用最后一个支持VCL版本的代码：https://github.com/ying32/govcl/tree/last-vcl-support。
-		panic("The VCL library is no longer supported. If necessary, please use the last code that supports VCL version: https://github.com/ying32/govcl/tree/last-vcl-support.")
+		// 当前已经不再支持VCL库了。如果有需要，请使用最后一个支持VCL版本的代码：https://github.com/dollarkillerx/govcl/tree/last-vcl-support。
+		panic("The VCL library is no longer supported. If necessary, please use the last code that supports VCL version: https://github.com/dollarkillerx/govcl/tree/last-vcl-support.")
 	}
 	return lib
 }

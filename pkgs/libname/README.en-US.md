@@ -13,6 +13,6 @@
 package main
 
 import "yourpackage" // Must take effect after being sorted automatically before the vcl package.
-import "github.com/ying32/govcl/vcl"
+import "github.com/dollarkillerx/govcl/vcl"
 
 ```

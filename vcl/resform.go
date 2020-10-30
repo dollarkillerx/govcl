@@ -45,7 +45,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	. "github.com/ying32/govcl/vcl/api"
+	. "github.com/dollarkillerx/govcl/vcl/api"
 )
 
 func setFiledVal(name string, instance uintptr, v reflect.Value) {

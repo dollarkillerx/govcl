@@ -8,7 +8,7 @@
 
 package zh_CN
 
-import "github.com/ying32/govcl/vcl/locales"
+import "github.com/dollarkillerx/govcl/vcl/locales"
 
 // 默认资源
 var resItems = map[string]string{

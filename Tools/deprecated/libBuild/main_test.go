@@ -18,10 +18,10 @@ func testLCL(t *testing.T) {
 	switch runtime.GOOS {
 	case "windows":
 		// 32位的
-		t.Log(buildLCL("i386", "F:/Golang/src/github.com/ying32/govcl/Tools/libBuild"))
+		t.Log(buildLCL("i386", "F:/Golang/src/github.com/dollarkillerx/govcl/Tools/libBuild"))
 
 		// 64位的
-		t.Log(buildLCL("x86_64", "F:/Golang/src/github.com/ying32/govcl/Tools/libBuild/x64"))
+		t.Log(buildLCL("x86_64", "F:/Golang/src/github.com/dollarkillerx/govcl/Tools/libBuild/x64"))
 
 	case "linux":
 		// 64位的 linux

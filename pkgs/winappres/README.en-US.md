@@ -11,13 +11,13 @@
 ```go
 package main
 
-import _ "github.com/ying32/govcl/pkgs/winappres"
+import _ "github.com/dollarkillerx/govcl/pkgs/winappres"
 ```
 * UAC
 ```go
 package main
 
-import _ "github.com/ying32/govcl/pkgs/winappres/uac"
+import _ "github.com/dollarkillerx/govcl/pkgs/winappres/uac"
 ```
  
 

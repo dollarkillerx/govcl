@@ -9,7 +9,7 @@
 package vcl
 
 import (
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 // 从资源中设置图标的id

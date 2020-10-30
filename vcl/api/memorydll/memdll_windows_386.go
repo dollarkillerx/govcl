@@ -13,7 +13,7 @@ package memorydll
 import (
 	"unsafe"
 
-	"github.com/ying32/govcl/vcl/api/memorydll/btmemorymodule"
+	"github.com/dollarkillerx/govcl/vcl/api/memorydll/btmemorymodule"
 )
 
 type moduleHandle = *btmemorymodule.TBTMemoryModule

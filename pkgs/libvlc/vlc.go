@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/ying32/govcl/vcl/types"
+	"github.com/dollarkillerx/govcl/vcl/types"
 )
 
 type TVLCMediaPlayer struct {

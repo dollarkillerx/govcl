@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 func GoBool(val uintptr) bool {

@@ -11,7 +11,7 @@ package vcl
 import (
 	"fmt"
 
-	. "github.com/ying32/govcl/vcl/win"
+	. "github.com/dollarkillerx/govcl/vcl/win"
 )
 
 func showError(err interface{}) {

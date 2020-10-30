@@ -14,11 +14,11 @@ package wke
 import (
 	"syscall"
 
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/win"
 
 	"unsafe"
 
-	"github.com/ying32/govcl/vcl/types"
+	"github.com/dollarkillerx/govcl/vcl/types"
 )
 
 type WindowType int32

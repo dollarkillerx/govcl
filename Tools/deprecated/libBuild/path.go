@@ -13,7 +13,7 @@ import (
 func GetGoVCLDir() string {
 	getPath := func(key string) string {
 		for _, path := range strings.Split(os.Getenv(key), ";") {
-			pp := path + "/src/github.com/ying32/govcl"
+			pp := path + "/src/github.com/dollarkillerx/govcl"
 			if checkFileExists(pp) {
 				return pp
 			}

@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"syscall"
 
-	. "github.com/ying32/govcl/vcl/types"
+	. "github.com/dollarkillerx/govcl/vcl/types"
 )
 
 const MAX_VERS = 20

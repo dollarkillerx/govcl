@@ -6,7 +6,7 @@
 package miniblink
 
 import (
-	"github.com/ying32/govcl/vcl/types"
+	"github.com/dollarkillerx/govcl/vcl/types"
 
 	"github.com/ying32/dylib/floatpatch"
 

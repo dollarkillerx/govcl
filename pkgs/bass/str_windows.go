@@ -3,7 +3,7 @@ package bass
 import (
 	"unsafe"
 
-	"github.com/ying32/govcl/vcl/win"
+	"github.com/dollarkillerx/govcl/vcl/win"
 )
 
 func cstr(str string) uintptr {

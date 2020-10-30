@@ -450,7 +450,7 @@ begin
         if Length(AEvents) > 0 then
         begin
           LListStr.Add('import (');
-          LListStr.Add('    "github.com/ying32/govcl/vcl"');
+          LListStr.Add('    "github.com/dollarkillerx/govcl/vcl"');
           LListStr.Add(')');
         end;
       end
@@ -473,7 +473,7 @@ begin
               begin
                 Inc(I);
                 LListStr.Insert(I, ')');
-                LListStr.Insert(I, '    "github.com/ying32/govcl/vcl"');
+                LListStr.Insert(I, '    "github.com/dollarkillerx/govcl/vcl"');
                 LListStr.Insert(I, 'import (');
                 LListStr.Insert(I, '');
                 Break;
@@ -506,7 +506,7 @@ begin
         end;
       end;
       // 这里检查下是否需要类型包
-      if not LListStr.Text.Contains('"github.com/ying32/govcl/vcl/types"') then
+      if not LListStr.Text.Contains('"github.com/dollarkillerx/govcl/vcl/types"') then
       begin
         for LItem in AEvents do
         begin
@@ -515,9 +515,9 @@ begin
             I := 0;
             for LTemp in LListStr do
             begin
-              if LTemp.Contains('"github.com/ying32/govcl/vcl"') then
+              if LTemp.Contains('"github.com/dollarkillerx/govcl/vcl"') then
               begin
-                LListStr.Insert(I + 1, '    "github.com/ying32/govcl/vcl/types"');
+                LListStr.Insert(I + 1, '    "github.com/dollarkillerx/govcl/vcl/types"');
                 Break;
               end;
               Inc(I);
@@ -669,7 +669,7 @@ begin
     WLine('package ' + uGoPkgName);
     WLine;
     WLine('import (');
-    WLine('    "github.com/ying32/govcl/vcl"');
+    WLine('    "github.com/dollarkillerx/govcl/vcl"');
     WLine(')');
     WLine;
     LFormName := PComponentItem(AComponents[0])^.Name;
@@ -1114,10 +1114,10 @@ begin
       LMainDotGo.Add('package main');
       LMainDotGo.Add('');
       LMainDotGo.Add('import (');
-      LMainDotGo.Add('    "github.com/ying32/govcl/vcl"');
+      LMainDotGo.Add('    "github.com/dollarkillerx/govcl/vcl"');
       // winappres
       // 总是添加此包
-        LMainDotGo.Add('    _ "github.com/ying32/govcl/pkgs/winappres"');
+        LMainDotGo.Add('    _ "github.com/dollarkillerx/govcl/pkgs/winappres"');
       LMainDotGo.Add(')');
       LMainDotGo.Add('');
       LMainDotGo.Add('func main() {');

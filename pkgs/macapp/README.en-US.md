@@ -10,6 +10,6 @@
 If there are multiple go files in the `main` package, a `0.go` file is created. Then import the `macapp` package.
 
 ```go
-import _ "github.com/ying32/govcl/pkgs/macapp"
+import _ "github.com/dollarkillerx/govcl/pkgs/macapp"
 
 ```

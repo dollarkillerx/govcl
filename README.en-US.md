@@ -23,7 +23,7 @@ Cross-platform Golang GUI library, The core binding is [liblcl](https://github.c
 > If you want to support linux arm and linux 32bit, you need to compile the corresponding liblcl binary.   
 
 ### Pre-compiled GUI library binary download ([source code](https://github.com/ying32/liblcl))     
-[![liblcl](https://img.shields.io/github/downloads/ying32/govcl/latest/liblcl-2.0.7.zip.svg)](https://github.com/ying32/govcl/releases/download/v2.0.7/liblcl-2.0.7.zip)  
+[![liblcl](https://img.shields.io/github/downloads/ying32/govcl/latest/liblcl-2.0.7.zip.svg)](https://github.com/dollarkillerx/govcl/releases/download/v2.0.7/liblcl-2.0.7.zip)  
 
 
 ### res2go Tool([doc, source code](Tools/res2go))    
@@ -36,9 +36,9 @@ Cross-platform Golang GUI library, The core binding is [liblcl](https://github.c
 
 #### Step 1: Get the govcl code  
 
-> go get -u github.com/ying32/govcl    
+> go get -u github.com/dollarkillerx/govcl    
 
-*Note: You can also use go module mode, configure in go.mod, such as: `github.com/ying32/govcl v2.0.7+incompatible`, and replace the version number with the latest version.*  
+*Note: You can also use go module mode, configure in go.mod, such as: `github.com/dollarkillerx/govcl v2.0.7+incompatible`, and replace the version number with the latest version.*  
 
 #### Step 2: Write the code
 
@@ -50,8 +50,8 @@ package main
 
 import (
    // Do not reference this package if you use custom syso files
-   _ "github.com/ying32/govcl/pkgs/winappres"
-   "github.com/ying32/govcl/vcl"
+   _ "github.com/dollarkillerx/govcl/pkgs/winappres"
+   "github.com/dollarkillerx/govcl/vcl"
 )
 
 type TMainForm struct {
@@ -108,8 +108,8 @@ package main
 
 import (
    // Do not reference this package if you use custom syso files
-   _ "github.com/ying32/govcl/pkgs/winappres"
-   "github.com/ying32/govcl/vcl"
+   _ "github.com/dollarkillerx/govcl/pkgs/winappres"
+   "github.com/dollarkillerx/govcl/vcl"
 )
 
 type TMainForm struct {

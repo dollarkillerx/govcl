@@ -2,7 +2,7 @@
 
 package miniblink
 
-import "github.com/ying32/govcl/vcl/rtl"
+import "github.com/dollarkillerx/govcl/vcl/rtl"
 
 var (
 	isLcl bool
